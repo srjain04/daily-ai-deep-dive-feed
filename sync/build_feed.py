@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild feed.xml from the live muse.ai source feed for The Lab Report.
+"""Rebuild feed.xml from the live muse.ai source feed for The Daily AI Deep Dive.
 
 The muse.ai feed template does not emit <itunes:author> (Apple Podcasts
 Connect's required "Artist" field), <itunes:owner>/<itunes:email>
@@ -25,8 +25,8 @@ from xml.sax.saxutils import escape
 
 # ---- config (public values; they appear in the published feed XML) ----
 # Filled in after the first episode publishes to the new feed.
-SOURCE_FEED = "TODO_AFTER_FIRST_PUBLISH"
-SELF_URL = "https://srjain04.github.io/lab-report-feed/feed.xml"
+SOURCE_FEED = "https://muse.ai/podcasts/feed/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978"
+SELF_URL = "https://srjain04.github.io/daily-ai-deep-dive-feed/feed.xml"
 AUTHOR = "Saurabh Jain"
 OWNER_NAME = "Saurabh Jain"
 OWNER_EMAIL = "srjain@gmail.com"
@@ -34,7 +34,7 @@ CATEGORY = "Technology"  # Apple Podcasts primary category
 # Per-episode artwork: art/YYYY-MM-DD.jpg files committed to this repo are
 # injected as each episode's <itunes:image>.
 ART_DIR = Path(__file__).resolve().parent.parent / "art"
-ART_BASE_URL = "https://srjain04.github.io/lab-report-feed/art"
+ART_BASE_URL = "https://srjain04.github.io/daily-ai-deep-dive-feed/art"
 # ------------------------------------------------------------------------
 
 BROWSER_UA = (
