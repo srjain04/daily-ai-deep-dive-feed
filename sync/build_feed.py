@@ -80,19 +80,43 @@ def build_proxy(xml: str) -> str:
 def inject_episode_art(xml: str) -> str:
     """Inject per-episode <itunes:image> for episodes with a custom art file.
 
-    Matches each <item>'s pubDate to art/YYYY-MM-DD.jpg. Episodes publish
-    ~4:30 AM Pacific, so the pubDate's UTC date always matches the Pacific date.
+    Matches each <item> to art/YYYY-MM-DD.jpg by the date embedded in the
+    episode TITLE (e.g. "The Daily AI Deep Dive — September 30, 2026"),
+    falling back to the pubDate's UTC date when no title date is found.
+    Title-date matching matters because the Sep-29 launch episode published
+    at ~11 PM PDT, giving it a UTC pubDate of Sep 30 — the same date as the
+    Sep-30 morning episode. The two episodes have different title dates and
+    must keep distinct art files. Episodes publish ~4:30 AM Pacific, so the
+    pubDate's UTC date otherwise always matches the Pacific title date.
     Episodes without a matching file are left untouched (show art applies).
     """
 
-    def repl(m):
-        body = m.group(1)
+    _MONTHS = {
+        "january": "01", "february": "02", "march": "03", "april": "04",
+        "may": "05", "june": "06", "july": "07", "august": "08",
+        "september": "09", "october": "10", "november": "11", "december": "12",
+    }
+
+    def episode_day(body: str):
+        t = re.search(r"<title>(.*?)</title>", body, re.DOTALL)
+        if t:
+            m = re.search(r"—\s*([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})", t.group(1))
+            if m:
+                mon = _MONTHS.get(m.group(1).lower())
+                if mon:
+                    return "%s-%s-%02d" % (m.group(3), mon, int(m.group(2)))
         d = re.search(r"<pubDate>(.*?)</pubDate>", body)
         if not d:
-            return m.group(0)
+            return None
         try:
-            day = parsedate_to_datetime(d.group(1).strip()).strftime("%Y-%m-%d")
+            return parsedate_to_datetime(d.group(1).strip()).strftime("%Y-%m-%d")
         except (TypeError, ValueError):
+            return None
+
+    def repl(m):
+        body = m.group(1)
+        day = episode_day(body)
+        if not day:
             return m.group(0)
         if not (ART_DIR / f"{day}.jpg").is_file():
             return m.group(0)
