@@ -19,7 +19,7 @@
     <title>The Daily AI Deep Dive</title>
     <link>https://muse.ai/podcasts/feed/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978</link>
   </image>
-  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-09-30.jpg"/>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-09-29.jpg"/>
 
     <title>The Daily AI Deep Dive — September 29, 2026</title>
     <description>Alex and Jordan take apart Meta Superintelligence Labs&apos; &apos;Thinking Before Thinking&apos; — why separating an agent&apos;s deciding from its doing could be inference scaling&apos;s second lever.
@@ -29,6 +29,17 @@ AI Generated</description>
     <guid isPermaLink="false">ep-a6e25397-933b-4654-baa6-041ea281e1ca</guid>
     <pubDate>Wed, 30 Sep 2026 05:49:38 +0000</pubDate>
     <itunes:duration>806</itunes:duration>
+  </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-09-30.jpg"/>
+
+    <title>The Daily AI Deep Dive — September 30, 2026</title>
+    <description>AlphaFold2: the DeepMind system that cracked protein structure prediction at CASP14 and won the 2024 Nobel Prize in Chemistry. Alex and Jordan unpack the Evoformer, invariant point attention, the 200-million-structure database, and the caveats that still matter.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-79e89c81-703d-470f-8e33-d5b01b938981.mp3" length="6794725" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-79e89c81-703d-470f-8e33-d5b01b938981</guid>
+    <pubDate>Wed, 30 Sep 2026 11:21:49 +0000</pubDate>
+    <itunes:duration>849</itunes:duration>
   </item>
 </channel>
 </rss>
