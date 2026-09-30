@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>The Daily AI Deep Dive</title>
+  <itunes:author>Saurabh Jain</itunes:author>
+  <itunes:owner>
+    <itunes:name>Saurabh Jain</itunes:name>
+    <itunes:email>srjain@gmail.com</itunes:email>
+  </itunes:owner>
+  <itunes:category text="Technology"/>
+  <description>AI Generated</description>
+  <language>en</language>
+  <itunes:explicit>false</itunes:explicit>
+  <atom:link href="https://srjain04.github.io/daily-ai-deep-dive-feed/feed.xml" rel="self" type="application/rss+xml"/>
+  <itunes:image href="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/cover.png"/>
+  <image>
+    <url>https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/cover.png</url>
+    <title>The Daily AI Deep Dive</title>
+    <link>https://muse.ai/podcasts/feed/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978</link>
+  </image>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-09-30.jpg"/>
+
+    <title>The Daily AI Deep Dive — September 29, 2026</title>
+    <description>Alex and Jordan take apart Meta Superintelligence Labs&apos; &apos;Thinking Before Thinking&apos; — why separating an agent&apos;s deciding from its doing could be inference scaling&apos;s second lever.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-9e4e30ef-ec1c-48b0-af36-e506c6e05ea8.mp3" length="6176293" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-9e4e30ef-ec1c-48b0-af36-e506c6e05ea8</guid>
+    <pubDate>Wed, 30 Sep 2026 05:28:48 +0000</pubDate>
+    <itunes:duration>772</itunes:duration>
+  </item>
+</channel>
+</rss>
