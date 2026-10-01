@@ -41,5 +41,16 @@ AI Generated</description>
     <pubDate>Wed, 30 Sep 2026 11:21:49 +0000</pubDate>
     <itunes:duration>849</itunes:duration>
   </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-10-01.jpg"/>
+
+    <title>The Daily AI Deep Dive — October 1, 2026</title>
+    <description>Diffusion Policy: how a Columbia robotics lab taught robots to act by sculpting motion from noise. The landmark RSS 2023 paper that made denoising diffusion the standard recipe for robot learning — from Push-T to sauce pouring to two-armed shirt folding.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-dcaff6c5-6210-4faf-9c20-d73aa648e6c0.mp3" length="5340133" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-dcaff6c5-6210-4faf-9c20-d73aa648e6c0</guid>
+    <pubDate>Thu, 01 Oct 2026 11:20:22 +0000</pubDate>
+    <itunes:duration>667</itunes:duration>
+  </item>
 </channel>
 </rss>
