@@ -52,5 +52,16 @@ AI Generated</description>
     <pubDate>Thu, 01 Oct 2026 11:20:22 +0000</pubDate>
     <itunes:duration>667</itunes:duration>
   </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-10-02.jpg"/>
+
+    <title>The Daily AI Deep Dive — October 2, 2026</title>
+    <description>One paper, one deep dive: &apos;Attention Is All You Need&apos; (Google Brain, NeurIPS 2017) — how the Transformer replaced recurrence with self-attention, set machine translation records on a fraction of the training compute, and became the blueprint for every modern language model.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-c659a20c-9279-4598-a912-ab0b56d453c1.mp3" length="6878821" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-c659a20c-9279-4598-a912-ab0b56d453c1</guid>
+    <pubDate>Fri, 02 Oct 2026 11:22:57 +0000</pubDate>
+    <itunes:duration>859</itunes:duration>
+  </item>
 </channel>
 </rss>
