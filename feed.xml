@@ -63,5 +63,16 @@ AI Generated</description>
     <pubDate>Fri, 02 Oct 2026 11:22:57 +0000</pubDate>
     <itunes:duration>859</itunes:duration>
   </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-10-03.jpg"/>
+
+    <title>The Daily AI Deep Dive — October 3, 2026</title>
+    <description>AlphaGo: how DeepMind combined learned policy and value networks with Monte Carlo tree search to master Go — the paper, the 5-0 win over the European champion, the 4-1 Seoul match against Lee Sedol, and the move that made the world ask what creativity means.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-433b904c-a300-4c9a-9987-7584692e36fc.mp3" length="6146917" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-433b904c-a300-4c9a-9987-7584692e36fc</guid>
+    <pubDate>Sat, 03 Oct 2026 11:15:32 +0000</pubDate>
+    <itunes:duration>768</itunes:duration>
+  </item>
 </channel>
 </rss>
