@@ -74,5 +74,16 @@ AI Generated</description>
     <pubDate>Sat, 03 Oct 2026 11:15:32 +0000</pubDate>
     <itunes:duration>768</itunes:duration>
   </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-10-04.jpg"/>
+
+    <title>The Daily AI Deep Dive — October 4, 2026</title>
+    <description>One paper, one deep dive: &quot;ReAct: Synergizing Reasoning and Acting in Language Models&quot; (Princeton University + Google Research Brain team, ICLR 2023) — the celebrated paper that interleaved thinking and doing, taught LLMs to say &quot;I don&apos;t know, let me look it up,&quot; and became the blueprint of the agent era.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-900b6597-2fb4-44b4-a89b-37a043e2554e.mp3" length="5616613" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-900b6597-2fb4-44b4-a89b-37a043e2554e</guid>
+    <pubDate>Sun, 04 Oct 2026 11:12:49 +0000</pubDate>
+    <itunes:duration>702</itunes:duration>
+  </item>
 </channel>
 </rss>
