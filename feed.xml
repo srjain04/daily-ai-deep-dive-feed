@@ -96,5 +96,16 @@ AI Generated</description>
     <pubDate>Mon, 05 Oct 2026 11:14:56 +0000</pubDate>
     <itunes:duration>785</itunes:duration>
   </item>
+  <item>  <itunes:image href="https://srjain04.github.io/daily-ai-deep-dive-feed/art/2026-10-06.jpg"/>
+
+    <title>The Daily AI Deep Dive — October 6, 2026</title>
+    <description>One celebrated paper, explained properly: Generative Adversarial Nets — the 2014 Université de Montréal paper that turned image generation into a two-player game between a forger network and a detective network.
+
+AI Generated</description>
+    <enclosure url="https://muse.ai/podcasts/media/623945677472634/99e325e7-d44c-43e6-beae-0b471e7a5978/ep-0c9b2122-0c6f-4975-b1d3-ac473f18aa0d.mp3" length="4897765" type="audio/mpeg"/>
+    <guid isPermaLink="false">ep-0c9b2122-0c6f-4975-b1d3-ac473f18aa0d</guid>
+    <pubDate>Tue, 06 Oct 2026 11:14:05 +0000</pubDate>
+    <itunes:duration>612</itunes:duration>
+  </item>
 </channel>
 </rss>
